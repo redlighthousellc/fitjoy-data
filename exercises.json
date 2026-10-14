@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": 2,
+  "version": 3,
   "exercises": [
     { "name": "Goblet Squat", "type": "weights", "aliases": ["kettlebell goblet squat", "dumbbell goblet squat"] },
     { "name": "Dumbbell Bench Press", "type": "weights", "weightPerSide": true, "aliases": ["DB bench", "flat dumbbell bench press", "dumbbell chest press"] },
@@ -96,6 +96,7 @@
     { "name": "Jumping Jacks", "type": "bodyweight", "unit": "seconds", "reps": 30, "aliases": ["star jumps"] },
     { "name": "Box Jump", "type": "bodyweight", "reps": 8 },
     { "name": "Calf Raise", "type": "bodyweight", "reps": 15, "aliases": ["bodyweight calf raise"] },
+    { "name": "Sit-to-Stand", "type": "bodyweight", "reps": 8, "aliases": ["chair stand", "chair squat"] },
     { "name": "Clamshell", "type": "bodyweight", "unilateral": true, "aliases": ["clam shell"] },
     { "name": "Fire Hydrant", "type": "bodyweight", "unilateral": true },
     { "name": "Donkey Kick", "type": "bodyweight", "unilateral": true },
@@ -123,11 +124,16 @@
     { "name": "Incline Treadmill Walk", "type": "cardio", "reps": 15, "aliases": ["incline walk", "treadmill walk"] },
     { "name": "Dancing", "type": "cardio", "reps": 15, "aliases": ["dance"] },
     { "name": "Shadow Boxing", "type": "cardio", "reps": 5, "aliases": ["boxing"] },
+    { "name": "Walk/Run Intervals", "type": "cardio", "reps": 20, "aliases": ["walk run", "run walk", "couch to 5k"] },
+    { "name": "Bike Ride", "type": "cardio", "reps": 30, "aliases": ["bike", "bicycle", "outdoor cycling"] },
+    { "name": "Play a Sport", "type": "cardio", "reps": 45, "aliases": ["sports", "sports practice", "soccer", "basketball"] },
     { "name": "Hiking", "type": "cardio", "reps": 30, "aliases": ["hike"] },
 
     { "name": "Yoga Flow", "type": "mobility", "unit": "minutes", "reps": 15, "aliases": ["yoga", "vinyasa", "yoga session"] },
     { "name": "Deep Breathing", "type": "mobility", "unit": "minutes", "reps": 5, "aliases": ["breathing", "breathwork", "diaphragmatic breathing", "belly breathing"] },
     { "name": "Box Breathing", "type": "mobility", "unit": "minutes", "reps": 3, "aliases": ["square breathing", "breathing exercise"] },
+    { "name": "Single-Leg Stand", "type": "mobility", "unit": "seconds", "reps": 20, "unilateral": true, "aliases": ["one leg stand", "single leg balance", "balance"] },
+    { "name": "Heel-to-Toe Walk", "type": "mobility", "unit": "seconds", "reps": 60, "aliases": ["tandem walk", "balance walk"] },
     { "name": "Sun Salutation", "type": "mobility", "unit": "rounds", "reps": 5, "aliases": ["surya namaskar", "surya namaskara", "yoga pose"] },
     { "name": "Cat-Cow", "type": "mobility", "reps": 10, "aliases": ["cat cow stretch", "dynamic stretch", "warm up"] },
     { "name": "Child's Pose", "type": "mobility", "unit": "seconds", "reps": 60, "aliases": ["childs pose", "yoga pose", "static stretch", "cool down"] },

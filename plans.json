@@ -1,0 +1,3150 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "locationOrder": {
+    "gym": [
+      "gym_starter",
+      "gym_30",
+      "weekend_strength",
+      "low_impact_cardio",
+      "run_lift"
+    ],
+    "outside": [
+      "walker",
+      "runner",
+      "weekend_runner",
+      "run_lift",
+      "dance_bike_hike",
+      "sports_play",
+      "walk_balance"
+    ],
+    "home": [
+      "home_mover",
+      "home_dumbbells",
+      "daily_7",
+      "daily_yoga",
+      "weekend_strength",
+      "walk_balance"
+    ],
+    "anywhere": [
+      "balanced",
+      "daily_7",
+      "sports_play",
+      "daily_yoga",
+      "dance_bike_hike",
+      "walk_balance",
+      "home_mover",
+      "walker"
+    ]
+  },
+  "plans": [
+    {
+      "id": "walker",
+      "name": "The Daily Walker",
+      "description": "Walks only. No equipment. 25–45 min/day.",
+      "plan": {
+        "monday": {
+          "id": "monday",
+          "label": "Monday — Morning Walk",
+          "workoutType": "Walk",
+          "exercises": [
+            {
+              "id": "walk_mon",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 25,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "walk_mon_2",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 25,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0,
+              "optional": true
+            }
+          ]
+        },
+        "tuesday": {
+          "id": "tuesday",
+          "label": "Tuesday — Morning Walk",
+          "workoutType": "Walk",
+          "exercises": [
+            {
+              "id": "walk_tue",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 25,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "walk_tue_2",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 25,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0,
+              "optional": true
+            }
+          ]
+        },
+        "wednesday": {
+          "id": "wednesday",
+          "label": "Wednesday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        },
+        "thursday": {
+          "id": "thursday",
+          "label": "Thursday — Morning Walk",
+          "workoutType": "Walk",
+          "exercises": [
+            {
+              "id": "walk_thu",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "walk_thu_2",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 25,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0,
+              "optional": true
+            }
+          ]
+        },
+        "friday": {
+          "id": "friday",
+          "label": "Friday — Morning Walk",
+          "workoutType": "Walk",
+          "exercises": [
+            {
+              "id": "walk_fri",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "walk_fri_2",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 25,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0,
+              "optional": true
+            }
+          ]
+        },
+        "saturday": {
+          "id": "saturday",
+          "label": "Saturday — Long Walk",
+          "workoutType": "Walk",
+          "exercises": [
+            {
+              "id": "walk_sat",
+              "name": "Long Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 45,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "walk_sat_2",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 25,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0,
+              "optional": true
+            }
+          ]
+        },
+        "sunday": {
+          "id": "sunday",
+          "label": "Sunday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "id": "home_mover",
+      "name": "The Home Mover",
+      "description": "Walks + bodyweight. No gym needed.",
+      "plan": {
+        "monday": {
+          "id": "monday",
+          "label": "Monday — Bodyweight Strength",
+          "workoutType": "Bodyweight Strength",
+          "exercises": [
+            {
+              "id": "hm_squat",
+              "name": "Bodyweight Squat",
+              "type": "bodyweight",
+              "sets": 3,
+              "reps": 12,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "hm_pushup",
+              "name": "Push-Up",
+              "type": "bodyweight",
+              "sets": 3,
+              "reps": 8,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "hm_glute_bridge",
+              "name": "Glute Bridge",
+              "type": "bodyweight",
+              "sets": 3,
+              "reps": 12,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "hm_plank",
+              "name": "Plank",
+              "type": "mobility",
+              "sets": 3,
+              "reps": 30,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "tuesday": {
+          "id": "tuesday",
+          "label": "Tuesday — Walk",
+          "workoutType": "Walk",
+          "exercises": [
+            {
+              "id": "hm_walk_tue",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 25,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "wednesday": {
+          "id": "wednesday",
+          "label": "Wednesday — Walk",
+          "workoutType": "Walk",
+          "exercises": [
+            {
+              "id": "hm_walk_wed",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 25,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "thursday": {
+          "id": "thursday",
+          "label": "Thursday — Bodyweight Strength",
+          "workoutType": "Bodyweight Strength",
+          "exercises": [
+            {
+              "id": "hm_lunge",
+              "name": "Reverse Lunge",
+              "type": "bodyweight",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "unilateral": true,
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "hm_pike_pushup",
+              "name": "Pike Push-Up",
+              "type": "bodyweight",
+              "sets": 3,
+              "reps": 8,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "hm_dead_bug",
+              "name": "Dead Bug",
+              "type": "mobility",
+              "sets": 3,
+              "reps": 6,
+              "unit": "reps",
+              "unilateral": true,
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "hm_side_plank",
+              "name": "Side Plank",
+              "type": "mobility",
+              "sets": 2,
+              "reps": 20,
+              "unit": "seconds",
+              "unilateral": true,
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "friday": {
+          "id": "friday",
+          "label": "Friday — Walk",
+          "workoutType": "Walk",
+          "exercises": [
+            {
+              "id": "hm_walk_fri",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "saturday": {
+          "id": "saturday",
+          "label": "Saturday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        },
+        "sunday": {
+          "id": "sunday",
+          "label": "Sunday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "id": "balanced",
+      "name": "The Balanced Week",
+      "description": "Cardio, bodyweight, and rest in rotation.",
+      "plan": {
+        "monday": {
+          "id": "monday",
+          "label": "Monday — Full Body",
+          "workoutType": "Full Body",
+          "exercises": [
+            {
+              "id": "bal_squat",
+              "name": "Bodyweight Squat",
+              "type": "bodyweight",
+              "sets": 3,
+              "reps": 12,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "bal_pushup",
+              "name": "Push-Up",
+              "type": "bodyweight",
+              "sets": 3,
+              "reps": 8,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "bal_glute_bridge",
+              "name": "Glute Bridge",
+              "type": "bodyweight",
+              "sets": 3,
+              "reps": 12,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "bal_plank",
+              "name": "Plank",
+              "type": "mobility",
+              "sets": 3,
+              "reps": 30,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "tuesday": {
+          "id": "tuesday",
+          "label": "Tuesday — Cardio",
+          "workoutType": "Cardio",
+          "exercises": [
+            {
+              "id": "bal_cardio_tue",
+              "name": "Brisk Walk or Cycle",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "wednesday": {
+          "id": "wednesday",
+          "label": "Wednesday — Mobility",
+          "workoutType": "Mobility",
+          "exercises": [
+            {
+              "id": "bal_surya",
+              "name": "Surya Namaskara",
+              "type": "mobility",
+              "sets": 6,
+              "reps": 1,
+              "unit": "rounds",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "bal_cars",
+              "name": "Shoulder CARs",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 5,
+              "unit": "reps",
+              "unilateral": true,
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "bal_dead_bug",
+              "name": "Dead Bug",
+              "type": "mobility",
+              "sets": 3,
+              "reps": 6,
+              "unit": "reps",
+              "unilateral": true,
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "bal_side_plank",
+              "name": "Side Plank",
+              "type": "mobility",
+              "sets": 2,
+              "reps": 20,
+              "unit": "seconds",
+              "unilateral": true,
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "thursday": {
+          "id": "thursday",
+          "label": "Thursday — Full Body",
+          "workoutType": "Full Body",
+          "exercises": [
+            {
+              "id": "bal_lunge",
+              "name": "Reverse Lunge",
+              "type": "bodyweight",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "unilateral": true,
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "bal_pike_pushup",
+              "name": "Pike Push-Up",
+              "type": "bodyweight",
+              "sets": 3,
+              "reps": 8,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "bal_hip_hinge",
+              "name": "Hip Hinge",
+              "type": "bodyweight",
+              "sets": 3,
+              "reps": 12,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "bal_plank_thu",
+              "name": "Plank",
+              "type": "mobility",
+              "sets": 3,
+              "reps": 30,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "friday": {
+          "id": "friday",
+          "label": "Friday — Cardio",
+          "workoutType": "Cardio",
+          "exercises": [
+            {
+              "id": "bal_cardio_fri",
+              "name": "Brisk Walk or Cycle",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "saturday": {
+          "id": "saturday",
+          "label": "Saturday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        },
+        "sunday": {
+          "id": "sunday",
+          "label": "Sunday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "id": "gym_starter",
+      "name": "The Gym Starter",
+      "description": "Structured weekly lifting.",
+      "plan": {
+        "monday": {
+          "id": "monday",
+          "label": "Monday — Heavy Pull",
+          "workoutType": "Heavy Pull",
+          "exercises": [
+            {
+              "id": "weighted_chin_up",
+              "name": "Weighted Chin-Up",
+              "type": "weights",
+              "sets": 5,
+              "reps": 5,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5
+            },
+            {
+              "id": "dumbbell_ab_crunch",
+              "name": "Dumbbell Ab Crunch",
+              "type": "weights",
+              "sets": 3,
+              "reps": 15,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5
+            }
+          ]
+        },
+        "tuesday": {
+          "id": "tuesday",
+          "label": "Tuesday — Heavy Push",
+          "workoutType": "Heavy Push",
+          "exercises": [
+            {
+              "id": "flat_dumbbell_bench_press",
+              "name": "Flat Dumbbell Bench Press",
+              "type": "weights",
+              "sets": 5,
+              "reps": 6,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5,
+              "weightPerSide": true
+            },
+            {
+              "id": "seesaw_dumbbell_press",
+              "name": "Seesaw Dumbbell Press",
+              "type": "weights",
+              "sets": 4,
+              "reps": 8,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5,
+              "weightPerSide": true,
+              "unilateral": true
+            },
+            {
+              "id": "dumbbell_lateral_raise",
+              "name": "Dumbbell Lateral Raise",
+              "type": "weights",
+              "sets": 3,
+              "reps": 12,
+              "unit": "reps",
+              "weight": 5,
+              "weightIncrement": 5,
+              "weightPerSide": true
+            }
+          ]
+        },
+        "wednesday": {
+          "id": "wednesday",
+          "label": "Wednesday — Posterior Chain Strength",
+          "workoutType": "Posterior Chain Strength",
+          "exercises": [
+            {
+              "id": "romanian_deadlift",
+              "name": "Romanian Deadlift",
+              "type": "weights",
+              "sets": 5,
+              "reps": 6,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5
+            },
+            {
+              "id": "farmers_walk",
+              "name": "Farmer’s Walk",
+              "type": "carry",
+              "sets": 4,
+              "reps": 45,
+              "unit": "seconds",
+              "weight": 10,
+              "weightIncrement": 5,
+              "weightPerSide": true
+            },
+            {
+              "id": "back_extension",
+              "name": "Back Extension",
+              "type": "bodyweight",
+              "sets": 3,
+              "reps": 12,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "thursday": {
+          "id": "thursday",
+          "label": "Thursday — Unilateral Lower + Conditioning",
+          "workoutType": "Unilateral Lower + Conditioning",
+          "exercises": [
+            {
+              "id": "dumbbell_walking_or_stationary_lunge",
+              "name": "Dumbbell Lunge",
+              "type": "weights",
+              "sets": 4,
+              "reps": 8,
+              "unit": "reps",
+              "unilateral": true,
+              "weight": 10,
+              "weightIncrement": 5,
+              "weightPerSide": true
+            },
+            {
+              "id": "7_minute_bodyweight_circuit",
+              "name": "7-Minute Bodyweight Circuit",
+              "type": "bodyweight",
+              "sets": 1,
+              "reps": 1,
+              "unit": "rounds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "friday": {
+          "id": "friday",
+          "label": "Friday — Upper Back Balance",
+          "workoutType": "Upper Back Balance",
+          "exercises": [
+            {
+              "id": "chest_supported_dumbbell_row",
+              "name": "Chest-Supported Dumbbell Row",
+              "type": "weights",
+              "sets": 4,
+              "reps": 10,
+              "unit": "reps",
+              "unilateral": true,
+              "weight": 10,
+              "weightIncrement": 5
+            },
+            {
+              "id": "rear_delt_fly",
+              "name": "Rear Delt Fly",
+              "type": "weights",
+              "sets": 2,
+              "reps": 12,
+              "unit": "reps",
+              "optional": true,
+              "weight": 5,
+              "weightIncrement": 5,
+              "weightPerSide": true
+            },
+            {
+              "id": "dead_bug",
+              "name": "Dead Bug",
+              "type": "mobility",
+              "sets": 3,
+              "reps": 1,
+              "unit": "rounds",
+              "optional": true,
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "side_plank",
+              "name": "Side Plank",
+              "type": "mobility",
+              "sets": 3,
+              "reps": 1,
+              "unit": "rounds",
+              "optional": true,
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "saturday": {
+          "id": "saturday",
+          "label": "Saturday — Aerobic + Recovery",
+          "workoutType": "Aerobic + Recovery",
+          "exercises": [
+            {
+              "id": "zone_2_cycling",
+              "name": "Zone 2 Cycling",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "light_mobility_flow",
+              "name": "Light Mobility Flow",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 1,
+              "unit": "rounds",
+              "optional": true,
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "sunday": {
+          "id": "sunday",
+          "label": "Sunday — Primary Mobility Day",
+          "workoutType": "Primary Mobility Day",
+          "exercises": [
+            {
+              "id": "surya_namaskara",
+              "name": "Surya Namaskara",
+              "type": "mobility",
+              "sets": 12,
+              "reps": 1,
+              "unit": "rounds",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "shoulder_cars",
+              "name": "Shoulder CARs",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 5,
+              "unit": "reps",
+              "unilateral": true,
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "daily_7",
+      "name": "The Daily 7",
+      "description": "7 minutes a day, every day. No equipment.",
+      "plan": {
+        "monday": {
+          "id": "monday",
+          "label": "Monday — Daily 7",
+          "workoutType": "Daily 7",
+          "exercises": [
+            {
+              "id": "d7_mon",
+              "name": "7-Minute Bodyweight Circuit",
+              "type": "bodyweight",
+              "sets": 1,
+              "reps": 1,
+              "unit": "rounds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "tuesday": {
+          "id": "tuesday",
+          "label": "Tuesday — Daily 7",
+          "workoutType": "Daily 7",
+          "exercises": [
+            {
+              "id": "d7_tue",
+              "name": "7-Minute Bodyweight Circuit",
+              "type": "bodyweight",
+              "sets": 1,
+              "reps": 1,
+              "unit": "rounds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "wednesday": {
+          "id": "wednesday",
+          "label": "Wednesday — Daily 7",
+          "workoutType": "Daily 7",
+          "exercises": [
+            {
+              "id": "d7_wed",
+              "name": "7-Minute Bodyweight Circuit",
+              "type": "bodyweight",
+              "sets": 1,
+              "reps": 1,
+              "unit": "rounds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "thursday": {
+          "id": "thursday",
+          "label": "Thursday — Daily 7",
+          "workoutType": "Daily 7",
+          "exercises": [
+            {
+              "id": "d7_thu",
+              "name": "7-Minute Bodyweight Circuit",
+              "type": "bodyweight",
+              "sets": 1,
+              "reps": 1,
+              "unit": "rounds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "friday": {
+          "id": "friday",
+          "label": "Friday — Daily 7",
+          "workoutType": "Daily 7",
+          "exercises": [
+            {
+              "id": "d7_fri",
+              "name": "7-Minute Bodyweight Circuit",
+              "type": "bodyweight",
+              "sets": 1,
+              "reps": 1,
+              "unit": "rounds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "saturday": {
+          "id": "saturday",
+          "label": "Saturday — Daily 7",
+          "workoutType": "Daily 7 and walk",
+          "exercises": [
+            {
+              "id": "d7_sat",
+              "name": "7-Minute Bodyweight Circuit",
+              "type": "bodyweight",
+              "sets": 1,
+              "reps": 1,
+              "unit": "rounds",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "d7_sat_walk",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 25,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "sunday": {
+          "id": "sunday",
+          "label": "Sunday — Daily 7",
+          "workoutType": "Daily 7 and walk",
+          "exercises": [
+            {
+              "id": "d7_sun",
+              "name": "7-Minute Bodyweight Circuit",
+              "type": "bodyweight",
+              "sets": 1,
+              "reps": 1,
+              "unit": "rounds",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "d7_sun_walk",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 25,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "runner",
+      "name": "The Daily Runner",
+      "description": "Run every day. No equipment. 30–60 min/day.",
+      "plan": {
+        "monday": {
+          "id": "monday",
+          "label": "Monday — Morning Run",
+          "workoutType": "Run",
+          "exercises": [
+            {
+              "id": "run_mon",
+              "name": "Easy Run",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "tuesday": {
+          "id": "tuesday",
+          "label": "Tuesday — Morning Run",
+          "workoutType": "Run",
+          "exercises": [
+            {
+              "id": "run_tue",
+              "name": "Easy Run",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "wednesday": {
+          "id": "wednesday",
+          "label": "Wednesday — Morning Run",
+          "workoutType": "Run",
+          "exercises": [
+            {
+              "id": "run_wed",
+              "name": "Easy Run",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "thursday": {
+          "id": "thursday",
+          "label": "Thursday — Morning Run",
+          "workoutType": "Run",
+          "exercises": [
+            {
+              "id": "run_thu",
+              "name": "Easy Run",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "friday": {
+          "id": "friday",
+          "label": "Friday — Morning Run",
+          "workoutType": "Run",
+          "exercises": [
+            {
+              "id": "run_fri",
+              "name": "Easy Run",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "saturday": {
+          "id": "saturday",
+          "label": "Saturday — Long Run",
+          "workoutType": "Run",
+          "exercises": [
+            {
+              "id": "run_sat",
+              "name": "Long Run",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 60,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "sunday": {
+          "id": "sunday",
+          "label": "Sunday — Morning Run",
+          "workoutType": "Run",
+          "exercises": [
+            {
+              "id": "run_sun",
+              "name": "Easy Run",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "daily_yoga",
+      "name": "Daily Yoga",
+      "description": "Walk, yoga and breathing every day. 30–45 min/day.",
+      "plan": {
+        "monday": {
+          "id": "monday",
+          "label": "Monday — Yoga + Workout",
+          "workoutType": "Yoga + Workout",
+          "exercises": [
+            {
+              "id": "dy_yoga_mon",
+              "name": "Yoga",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "dy_walk_mon",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "dy_7min_mon",
+              "name": "7-Minute Workout",
+              "type": "bodyweight",
+              "sets": 1,
+              "reps": 7,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "dy_box_mon",
+              "name": "Box Breathing",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 3,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "tuesday": {
+          "id": "tuesday",
+          "label": "Tuesday — Yoga",
+          "workoutType": "Yoga",
+          "exercises": [
+            {
+              "id": "dy_yoga_tue",
+              "name": "Yoga",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "dy_walk_tue",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "dy_box_tue",
+              "name": "Box Breathing",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 3,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "wednesday": {
+          "id": "wednesday",
+          "label": "Wednesday — Yoga + Workout",
+          "workoutType": "Yoga + Workout",
+          "exercises": [
+            {
+              "id": "dy_yoga_wed",
+              "name": "Yoga",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "dy_walk_wed",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "dy_7min_wed",
+              "name": "7-Minute Workout",
+              "type": "bodyweight",
+              "sets": 1,
+              "reps": 7,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "dy_box_wed",
+              "name": "Box Breathing",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 3,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "thursday": {
+          "id": "thursday",
+          "label": "Thursday — Yoga",
+          "workoutType": "Yoga",
+          "exercises": [
+            {
+              "id": "dy_yoga_thu",
+              "name": "Yoga",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "dy_walk_thu",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "dy_box_thu",
+              "name": "Box Breathing",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 3,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "friday": {
+          "id": "friday",
+          "label": "Friday — Yoga + Workout",
+          "workoutType": "Yoga + Workout",
+          "exercises": [
+            {
+              "id": "dy_yoga_fri",
+              "name": "Yoga",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "dy_walk_fri",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "dy_7min_fri",
+              "name": "7-Minute Workout",
+              "type": "bodyweight",
+              "sets": 1,
+              "reps": 7,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "dy_box_fri",
+              "name": "Box Breathing",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 3,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "saturday": {
+          "id": "saturday",
+          "label": "Saturday — Yoga",
+          "workoutType": "Yoga",
+          "exercises": [
+            {
+              "id": "dy_yoga_sat",
+              "name": "Yoga",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "dy_walk_sat",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 45,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "dy_box_sat",
+              "name": "Box Breathing",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 3,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "sunday": {
+          "id": "sunday",
+          "label": "Sunday — Yoga",
+          "workoutType": "Yoga",
+          "exercises": [
+            {
+              "id": "dy_yoga_sun",
+              "name": "Yoga",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "dy_walk_sun",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "dy_box_sun",
+              "name": "Box Breathing",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 3,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gym_30",
+      "name": "30-Minute Gym",
+      "description": "Three 30-minute gym days, two easy jogs.",
+      "plan": {
+        "monday": {
+          "id": "monday",
+          "label": "Monday — Gym",
+          "workoutType": "Strength",
+          "exercises": [
+            {
+              "id": "g30_leg_press",
+              "name": "Leg Press",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 60,
+              "weightIncrement": 5
+            },
+            {
+              "id": "g30_chest_press",
+              "name": "Machine Chest Press",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 30,
+              "weightIncrement": 5
+            },
+            {
+              "id": "g30_cable_row",
+              "name": "Seated Cable Row",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 30,
+              "weightIncrement": 5
+            },
+            {
+              "id": "g30_plank",
+              "name": "Plank",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 30,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "tuesday": {
+          "id": "tuesday",
+          "label": "Tuesday — Easy Jog",
+          "workoutType": "Jog",
+          "exercises": [
+            {
+              "id": "g30_jog_tue",
+              "name": "Jog",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 20,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "wednesday": {
+          "id": "wednesday",
+          "label": "Wednesday — Gym",
+          "workoutType": "Strength",
+          "exercises": [
+            {
+              "id": "g30_goblet_squat",
+              "name": "Goblet Squat",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 15,
+              "weightIncrement": 5
+            },
+            {
+              "id": "g30_pulldown",
+              "name": "Lat Pulldown",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 40,
+              "weightIncrement": 5
+            },
+            {
+              "id": "g30_db_press",
+              "name": "Dumbbell Shoulder Press",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5,
+              "weightPerSide": true
+            },
+            {
+              "id": "g30_dead_bug",
+              "name": "Dead Bug",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 6,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0,
+              "unilateral": true
+            }
+          ]
+        },
+        "thursday": {
+          "id": "thursday",
+          "label": "Thursday — Easy Jog",
+          "workoutType": "Jog",
+          "exercises": [
+            {
+              "id": "g30_jog_thu",
+              "name": "Jog",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 20,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "friday": {
+          "id": "friday",
+          "label": "Friday — Gym",
+          "workoutType": "Strength",
+          "exercises": [
+            {
+              "id": "g30_db_rdl",
+              "name": "Dumbbell Romanian Deadlift",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5,
+              "weightPerSide": true
+            },
+            {
+              "id": "g30_incline_press",
+              "name": "Incline Dumbbell Press",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5,
+              "weightPerSide": true
+            },
+            {
+              "id": "g30_db_row",
+              "name": "Dumbbell Row",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 15,
+              "weightIncrement": 5,
+              "unilateral": true
+            },
+            {
+              "id": "g30_side_plank",
+              "name": "Side Plank",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 20,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0,
+              "unilateral": true
+            }
+          ]
+        },
+        "saturday": {
+          "id": "saturday",
+          "label": "Saturday — Walk",
+          "workoutType": "Walk",
+          "exercises": [
+            {
+              "id": "g30_walk_sat",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 40,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "sunday": {
+          "id": "sunday",
+          "label": "Sunday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "id": "run_lift",
+      "name": "Run & Lift",
+      "description": "Easy runs and two dumbbell days. 30–45 min/day.",
+      "plan": {
+        "monday": {
+          "id": "monday",
+          "label": "Monday — Easy Run",
+          "workoutType": "Run",
+          "exercises": [
+            {
+              "id": "rl_run_mon",
+              "name": "Run",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 25,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "tuesday": {
+          "id": "tuesday",
+          "label": "Tuesday — Dumbbell Strength",
+          "workoutType": "Strength",
+          "exercises": [
+            {
+              "id": "rl_goblet_squat",
+              "name": "Goblet Squat",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 15,
+              "weightIncrement": 5
+            },
+            {
+              "id": "rl_db_row",
+              "name": "Dumbbell Row",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 15,
+              "weightIncrement": 5,
+              "unilateral": true
+            },
+            {
+              "id": "rl_db_rdl",
+              "name": "Dumbbell Romanian Deadlift",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5,
+              "weightPerSide": true
+            },
+            {
+              "id": "rl_plank",
+              "name": "Plank",
+              "type": "bodyweight",
+              "sets": 3,
+              "reps": 30,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "wednesday": {
+          "id": "wednesday",
+          "label": "Wednesday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        },
+        "thursday": {
+          "id": "thursday",
+          "label": "Thursday — Easy Run",
+          "workoutType": "Run",
+          "exercises": [
+            {
+              "id": "rl_run_thu",
+              "name": "Run",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 25,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "friday": {
+          "id": "friday",
+          "label": "Friday — Dumbbell Strength",
+          "workoutType": "Strength",
+          "exercises": [
+            {
+              "id": "rl_db_step_up",
+              "name": "Dumbbell Step-Up",
+              "type": "weights",
+              "sets": 3,
+              "reps": 8,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5,
+              "unilateral": true,
+              "weightPerSide": true
+            },
+            {
+              "id": "rl_db_press",
+              "name": "Dumbbell Shoulder Press",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5,
+              "weightPerSide": true
+            },
+            {
+              "id": "rl_glute_bridge",
+              "name": "Glute Bridge",
+              "type": "bodyweight",
+              "sets": 3,
+              "reps": 12,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "rl_side_plank",
+              "name": "Side Plank",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 20,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0,
+              "unilateral": true
+            }
+          ]
+        },
+        "saturday": {
+          "id": "saturday",
+          "label": "Saturday — Long Easy Run",
+          "workoutType": "Run",
+          "exercises": [
+            {
+              "id": "rl_run_sat",
+              "name": "Run",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 40,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "sunday": {
+          "id": "sunday",
+          "label": "Sunday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "id": "home_dumbbells",
+      "name": "Home Dumbbells",
+      "description": "Light dumbbells, walks and stretching at home.",
+      "plan": {
+        "monday": {
+          "id": "monday",
+          "label": "Monday — Strength",
+          "workoutType": "Strength",
+          "exercises": [
+            {
+              "id": "hd_goblet_mon",
+              "name": "Goblet Squat",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5
+            },
+            {
+              "id": "hd_row_mon",
+              "name": "Dumbbell Row",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5,
+              "unilateral": true
+            },
+            {
+              "id": "hd_bridge_mon",
+              "name": "Glute Bridge",
+              "type": "bodyweight",
+              "sets": 3,
+              "reps": 12,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "hd_birddog_mon",
+              "name": "Bird Dog",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 6,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0,
+              "unilateral": true
+            }
+          ]
+        },
+        "tuesday": {
+          "id": "tuesday",
+          "label": "Tuesday — Walk and Stretch",
+          "workoutType": "Walk",
+          "exercises": [
+            {
+              "id": "hd_walk_tue",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "hd_catcow_tue",
+              "name": "Cat-Cow",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "hd_child_tue",
+              "name": "Child's Pose",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 60,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "wednesday": {
+          "id": "wednesday",
+          "label": "Wednesday — Strength",
+          "workoutType": "Strength",
+          "exercises": [
+            {
+              "id": "hd_step_up",
+              "name": "Dumbbell Step-Up",
+              "type": "weights",
+              "sets": 2,
+              "reps": 8,
+              "unit": "reps",
+              "weight": 5,
+              "weightIncrement": 5,
+              "unilateral": true,
+              "weightPerSide": true
+            },
+            {
+              "id": "hd_db_press",
+              "name": "Dumbbell Shoulder Press",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 5,
+              "weightIncrement": 5,
+              "weightPerSide": true
+            },
+            {
+              "id": "hd_db_rdl",
+              "name": "Dumbbell Romanian Deadlift",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5,
+              "weightPerSide": true
+            },
+            {
+              "id": "hd_side_plank",
+              "name": "Side Plank",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 15,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0,
+              "unilateral": true
+            }
+          ]
+        },
+        "thursday": {
+          "id": "thursday",
+          "label": "Thursday — Strength",
+          "workoutType": "Strength",
+          "exercises": [
+            {
+              "id": "hd_goblet_thu",
+              "name": "Goblet Squat",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5
+            },
+            {
+              "id": "hd_row_thu",
+              "name": "Dumbbell Row",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5,
+              "unilateral": true
+            },
+            {
+              "id": "hd_bridge_thu",
+              "name": "Glute Bridge",
+              "type": "bodyweight",
+              "sets": 3,
+              "reps": 12,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "hd_birddog_thu",
+              "name": "Bird Dog",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 6,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0,
+              "unilateral": true
+            }
+          ]
+        },
+        "friday": {
+          "id": "friday",
+          "label": "Friday — Walk and Stretch",
+          "workoutType": "Walk",
+          "exercises": [
+            {
+              "id": "hd_walk_fri",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "hd_catcow_fri",
+              "name": "Cat-Cow",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "hd_child_fri",
+              "name": "Child's Pose",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 60,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "saturday": {
+          "id": "saturday",
+          "label": "Saturday — Long Walk",
+          "workoutType": "Walk",
+          "exercises": [
+            {
+              "id": "hd_walk_sat",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 45,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "sunday": {
+          "id": "sunday",
+          "label": "Sunday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "id": "low_impact_cardio",
+      "name": "Low-Impact Cardio",
+      "description": "Bike, swim, row and elliptical. Easy on the joints.",
+      "plan": {
+        "monday": {
+          "id": "monday",
+          "label": "Monday — Bike and Machines",
+          "workoutType": "Cardio + Strength",
+          "exercises": [
+            {
+              "id": "lic_bike",
+              "name": "Stationary Bike",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 25,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "lic_leg_press",
+              "name": "Leg Press",
+              "type": "weights",
+              "sets": 2,
+              "reps": 12,
+              "unit": "reps",
+              "weight": 40,
+              "weightIncrement": 5
+            },
+            {
+              "id": "lic_cable_row",
+              "name": "Seated Cable Row",
+              "type": "weights",
+              "sets": 2,
+              "reps": 12,
+              "unit": "reps",
+              "weight": 30,
+              "weightIncrement": 5
+            }
+          ]
+        },
+        "tuesday": {
+          "id": "tuesday",
+          "label": "Tuesday — Swim",
+          "workoutType": "Swim",
+          "exercises": [
+            {
+              "id": "lic_swim",
+              "name": "Swimming",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 25,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "lic_elliptical_tue",
+              "name": "Elliptical",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 25,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0,
+              "optional": true
+            }
+          ]
+        },
+        "wednesday": {
+          "id": "wednesday",
+          "label": "Wednesday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        },
+        "thursday": {
+          "id": "thursday",
+          "label": "Thursday — Row and Machines",
+          "workoutType": "Cardio + Strength",
+          "exercises": [
+            {
+              "id": "lic_row",
+              "name": "Rowing Machine",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 15,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "lic_chest_press",
+              "name": "Machine Chest Press",
+              "type": "weights",
+              "sets": 2,
+              "reps": 12,
+              "unit": "reps",
+              "weight": 30,
+              "weightIncrement": 5
+            },
+            {
+              "id": "lic_pulldown",
+              "name": "Lat Pulldown",
+              "type": "weights",
+              "sets": 2,
+              "reps": 12,
+              "unit": "reps",
+              "weight": 30,
+              "weightIncrement": 5
+            }
+          ]
+        },
+        "friday": {
+          "id": "friday",
+          "label": "Friday — Elliptical",
+          "workoutType": "Cardio",
+          "exercises": [
+            {
+              "id": "lic_elliptical_fri",
+              "name": "Elliptical",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 25,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "saturday": {
+          "id": "saturday",
+          "label": "Saturday — Walk",
+          "workoutType": "Walk",
+          "exercises": [
+            {
+              "id": "lic_walk_sat",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 40,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "sunday": {
+          "id": "sunday",
+          "label": "Sunday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "id": "walk_balance",
+      "name": "Walk & Balance",
+      "description": "Short walks with balance and leg strength. 15–25 min/day.",
+      "plan": {
+        "monday": {
+          "id": "monday",
+          "label": "Monday — Walk and Balance",
+          "workoutType": "Walk + Balance",
+          "exercises": [
+            {
+              "id": "wb_walk_mon",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 15,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "wb_sit_stand_mon",
+              "name": "Sit-to-Stand",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 8,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "wb_single_leg_mon",
+              "name": "Single-Leg Stand",
+              "type": "mobility",
+              "sets": 2,
+              "reps": 20,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0,
+              "unilateral": true
+            },
+            {
+              "id": "wb_calf_mon",
+              "name": "Calf Raise",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "tuesday": {
+          "id": "tuesday",
+          "label": "Tuesday — Walk and Balance",
+          "workoutType": "Walk + Balance",
+          "exercises": [
+            {
+              "id": "wb_walk_tue",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 20,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "wb_heel_toe_tue",
+              "name": "Heel-to-Toe Walk",
+              "type": "mobility",
+              "sets": 2,
+              "reps": 60,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "wb_birddog_tue",
+              "name": "Bird Dog",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 5,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0,
+              "unilateral": true
+            },
+            {
+              "id": "wb_breathe_tue",
+              "name": "Deep Breathing",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 3,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "wednesday": {
+          "id": "wednesday",
+          "label": "Wednesday — Walk and Balance",
+          "workoutType": "Walk + Balance",
+          "exercises": [
+            {
+              "id": "wb_walk_wed",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 15,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "wb_sit_stand_wed",
+              "name": "Sit-to-Stand",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 8,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "wb_single_leg_wed",
+              "name": "Single-Leg Stand",
+              "type": "mobility",
+              "sets": 2,
+              "reps": 20,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0,
+              "unilateral": true
+            },
+            {
+              "id": "wb_calf_wed",
+              "name": "Calf Raise",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "thursday": {
+          "id": "thursday",
+          "label": "Thursday — Walk and Balance",
+          "workoutType": "Walk + Balance",
+          "exercises": [
+            {
+              "id": "wb_walk_thu",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 20,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "wb_heel_toe_thu",
+              "name": "Heel-to-Toe Walk",
+              "type": "mobility",
+              "sets": 2,
+              "reps": 60,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "wb_birddog_thu",
+              "name": "Bird Dog",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 5,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0,
+              "unilateral": true
+            },
+            {
+              "id": "wb_breathe_thu",
+              "name": "Deep Breathing",
+              "type": "mobility",
+              "sets": 1,
+              "reps": 3,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "friday": {
+          "id": "friday",
+          "label": "Friday — Walk and Balance",
+          "workoutType": "Walk + Balance",
+          "exercises": [
+            {
+              "id": "wb_walk_fri",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 15,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "wb_sit_stand_fri",
+              "name": "Sit-to-Stand",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 8,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "wb_single_leg_fri",
+              "name": "Single-Leg Stand",
+              "type": "mobility",
+              "sets": 2,
+              "reps": 20,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0,
+              "unilateral": true
+            },
+            {
+              "id": "wb_calf_fri",
+              "name": "Calf Raise",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "saturday": {
+          "id": "saturday",
+          "label": "Saturday — Walk",
+          "workoutType": "Walk",
+          "exercises": [
+            {
+              "id": "wb_walk_sat",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 25,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "sunday": {
+          "id": "sunday",
+          "label": "Sunday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "id": "weekend_runner",
+      "name": "Weekend Runner",
+      "description": "Start running with walk-run intervals. Longer on weekends.",
+      "plan": {
+        "monday": {
+          "id": "monday",
+          "label": "Monday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        },
+        "tuesday": {
+          "id": "tuesday",
+          "label": "Tuesday — Walk/Run",
+          "workoutType": "Walk/Run",
+          "exercises": [
+            {
+              "id": "wr_intervals_tue",
+              "name": "Walk/Run Intervals",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 20,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "wednesday": {
+          "id": "wednesday",
+          "label": "Wednesday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        },
+        "thursday": {
+          "id": "thursday",
+          "label": "Thursday — Walk/Run",
+          "workoutType": "Walk/Run",
+          "exercises": [
+            {
+              "id": "wr_intervals_thu",
+              "name": "Walk/Run Intervals",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 20,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "friday": {
+          "id": "friday",
+          "label": "Friday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        },
+        "saturday": {
+          "id": "saturday",
+          "label": "Saturday — Longer Walk/Run",
+          "workoutType": "Walk/Run",
+          "exercises": [
+            {
+              "id": "wr_intervals_sat",
+              "name": "Walk/Run Intervals",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 35,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "sunday": {
+          "id": "sunday",
+          "label": "Sunday — Longer Walk/Run",
+          "workoutType": "Walk/Run",
+          "exercises": [
+            {
+              "id": "wr_intervals_sun",
+              "name": "Walk/Run Intervals",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "weekend_strength",
+      "name": "Weekend Strength",
+      "description": "Two short weekday sessions, longer workouts on the weekend.",
+      "plan": {
+        "monday": {
+          "id": "monday",
+          "label": "Monday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        },
+        "tuesday": {
+          "id": "tuesday",
+          "label": "Tuesday — Quick Strength",
+          "workoutType": "Strength",
+          "exercises": [
+            {
+              "id": "ws_goblet_tue",
+              "name": "Goblet Squat",
+              "type": "weights",
+              "sets": 2,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 15,
+              "weightIncrement": 5
+            },
+            {
+              "id": "ws_row_tue",
+              "name": "Dumbbell Row",
+              "type": "weights",
+              "sets": 2,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 15,
+              "weightIncrement": 5,
+              "unilateral": true
+            },
+            {
+              "id": "ws_plank_tue",
+              "name": "Plank",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 30,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "wednesday": {
+          "id": "wednesday",
+          "label": "Wednesday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        },
+        "thursday": {
+          "id": "thursday",
+          "label": "Thursday — Quick Strength",
+          "workoutType": "Strength",
+          "exercises": [
+            {
+              "id": "ws_goblet_thu",
+              "name": "Goblet Squat",
+              "type": "weights",
+              "sets": 2,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 15,
+              "weightIncrement": 5
+            },
+            {
+              "id": "ws_row_thu",
+              "name": "Dumbbell Row",
+              "type": "weights",
+              "sets": 2,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 15,
+              "weightIncrement": 5,
+              "unilateral": true
+            },
+            {
+              "id": "ws_plank_thu",
+              "name": "Plank",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 30,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "friday": {
+          "id": "friday",
+          "label": "Friday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        },
+        "saturday": {
+          "id": "saturday",
+          "label": "Saturday — Lower Body + Push",
+          "workoutType": "Strength",
+          "exercises": [
+            {
+              "id": "ws_goblet_sat",
+              "name": "Goblet Squat",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 15,
+              "weightIncrement": 5
+            },
+            {
+              "id": "ws_rdl_sat",
+              "name": "Dumbbell Romanian Deadlift",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5,
+              "weightPerSide": true
+            },
+            {
+              "id": "ws_bench_sat",
+              "name": "Dumbbell Bench Press",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5,
+              "weightPerSide": true
+            },
+            {
+              "id": "ws_step_up_sat",
+              "name": "Dumbbell Step-Up",
+              "type": "weights",
+              "sets": 3,
+              "reps": 8,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5,
+              "unilateral": true,
+              "weightPerSide": true
+            },
+            {
+              "id": "ws_side_plank_sat",
+              "name": "Side Plank",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 20,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0,
+              "unilateral": true
+            }
+          ]
+        },
+        "sunday": {
+          "id": "sunday",
+          "label": "Sunday — Upper Body + Walk",
+          "workoutType": "Strength + Walk",
+          "exercises": [
+            {
+              "id": "ws_row_sun",
+              "name": "Dumbbell Row",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 15,
+              "weightIncrement": 5,
+              "unilateral": true
+            },
+            {
+              "id": "ws_press_sun",
+              "name": "Dumbbell Shoulder Press",
+              "type": "weights",
+              "sets": 3,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 10,
+              "weightIncrement": 5,
+              "weightPerSide": true
+            },
+            {
+              "id": "ws_bridge_sun",
+              "name": "Glute Bridge",
+              "type": "bodyweight",
+              "sets": 3,
+              "reps": 12,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "ws_dead_bug_sun",
+              "name": "Dead Bug",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 6,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0,
+              "unilateral": true
+            },
+            {
+              "id": "ws_walk_sun",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sports_play",
+      "name": "Sports & Play",
+      "description": "Sports, jumping and bodyweight moves. About 60 min/day.",
+      "plan": {
+        "monday": {
+          "id": "monday",
+          "label": "Monday — Sport",
+          "workoutType": "Sport",
+          "exercises": [
+            {
+              "id": "sp_sport_mon",
+              "name": "Play a Sport",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 45,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "sp_jacks_mon",
+              "name": "Jumping Jacks",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 30,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "sp_pushup_mon",
+              "name": "Push-Up",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "sp_plank_mon",
+              "name": "Plank",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 30,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "tuesday": {
+          "id": "tuesday",
+          "label": "Tuesday — Bike and Jump",
+          "workoutType": "Bike + Bodyweight",
+          "exercises": [
+            {
+              "id": "sp_bike_tue",
+              "name": "Bike Ride",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "sp_rope_tue",
+              "name": "Jump Rope",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 5,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "sp_squat_tue",
+              "name": "Bodyweight Squat",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 15,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "sp_crawl_tue",
+              "name": "Bear Crawl",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 20,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "wednesday": {
+          "id": "wednesday",
+          "label": "Wednesday — Sport",
+          "workoutType": "Sport",
+          "exercises": [
+            {
+              "id": "sp_sport_wed",
+              "name": "Play a Sport",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 45,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "sp_jacks_wed",
+              "name": "Jumping Jacks",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 30,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "sp_pushup_wed",
+              "name": "Push-Up",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "sp_plank_wed",
+              "name": "Plank",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 30,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "thursday": {
+          "id": "thursday",
+          "label": "Thursday — Bike and Jump",
+          "workoutType": "Bike + Bodyweight",
+          "exercises": [
+            {
+              "id": "sp_bike_thu",
+              "name": "Bike Ride",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "sp_rope_thu",
+              "name": "Jump Rope",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 5,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "sp_squat_thu",
+              "name": "Bodyweight Squat",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 15,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "sp_crawl_thu",
+              "name": "Bear Crawl",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 20,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "friday": {
+          "id": "friday",
+          "label": "Friday — Sport",
+          "workoutType": "Sport",
+          "exercises": [
+            {
+              "id": "sp_sport_fri",
+              "name": "Play a Sport",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 45,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "sp_jacks_fri",
+              "name": "Jumping Jacks",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 30,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "sp_pushup_fri",
+              "name": "Push-Up",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 10,
+              "unit": "reps",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "sp_plank_fri",
+              "name": "Plank",
+              "type": "bodyweight",
+              "sets": 2,
+              "reps": 30,
+              "unit": "seconds",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "saturday": {
+          "id": "saturday",
+          "label": "Saturday — Hike",
+          "workoutType": "Hike",
+          "exercises": [
+            {
+              "id": "sp_hike_sat",
+              "name": "Hiking",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 60,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "sunday": {
+          "id": "sunday",
+          "label": "Sunday — Walk",
+          "workoutType": "Walk",
+          "exercises": [
+            {
+              "id": "sp_walk_sun",
+              "name": "Brisk Walk",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dance_bike_hike",
+      "name": "Dance, Bike & Hike",
+      "description": "Dancing, bike rides and hikes. Movement that feels like play.",
+      "plan": {
+        "monday": {
+          "id": "monday",
+          "label": "Monday — Dance",
+          "workoutType": "Dance",
+          "exercises": [
+            {
+              "id": "dbh_dance_mon",
+              "name": "Dancing",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "tuesday": {
+          "id": "tuesday",
+          "label": "Tuesday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        },
+        "wednesday": {
+          "id": "wednesday",
+          "label": "Wednesday — Bike Ride",
+          "workoutType": "Bike",
+          "exercises": [
+            {
+              "id": "dbh_bike_wed",
+              "name": "Bike Ride",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 40,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "thursday": {
+          "id": "thursday",
+          "label": "Thursday — Rest",
+          "workoutType": "Rest",
+          "exercises": []
+        },
+        "friday": {
+          "id": "friday",
+          "label": "Friday — Dance and Box",
+          "workoutType": "Dance",
+          "exercises": [
+            {
+              "id": "dbh_dance_fri",
+              "name": "Dancing",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 30,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            },
+            {
+              "id": "dbh_box_fri",
+              "name": "Shadow Boxing",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 10,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "saturday": {
+          "id": "saturday",
+          "label": "Saturday — Hike",
+          "workoutType": "Hike",
+          "exercises": [
+            {
+              "id": "dbh_hike_sat",
+              "name": "Hiking",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 60,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        },
+        "sunday": {
+          "id": "sunday",
+          "label": "Sunday — Bike Ride",
+          "workoutType": "Bike",
+          "exercises": [
+            {
+              "id": "dbh_bike_sun",
+              "name": "Bike Ride",
+              "type": "cardio",
+              "sets": 1,
+              "reps": 45,
+              "unit": "minutes",
+              "weight": 0,
+              "weightIncrement": 0
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

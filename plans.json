@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": 1,
+  "version": 2,
   "locationOrder": {
     "gym": [
       "gym_starter",
@@ -46,7 +46,7 @@
         "monday": {
           "id": "monday",
           "label": "Monday — Morning Walk",
-          "workoutType": "Walk",
+          "workoutType": "Morning Walk",
           "exercises": [
             {
               "id": "walk_mon",
@@ -74,7 +74,7 @@
         "tuesday": {
           "id": "tuesday",
           "label": "Tuesday — Morning Walk",
-          "workoutType": "Walk",
+          "workoutType": "Morning Walk",
           "exercises": [
             {
               "id": "walk_tue",
@@ -101,14 +101,14 @@
         },
         "wednesday": {
           "id": "wednesday",
-          "label": "Wednesday — Rest",
-          "workoutType": "Rest",
+          "label": "Wednesday",
+          "workoutType": "",
           "exercises": []
         },
         "thursday": {
           "id": "thursday",
           "label": "Thursday — Morning Walk",
-          "workoutType": "Walk",
+          "workoutType": "Morning Walk",
           "exercises": [
             {
               "id": "walk_thu",
@@ -136,7 +136,7 @@
         "friday": {
           "id": "friday",
           "label": "Friday — Morning Walk",
-          "workoutType": "Walk",
+          "workoutType": "Morning Walk",
           "exercises": [
             {
               "id": "walk_fri",
@@ -164,7 +164,7 @@
         "saturday": {
           "id": "saturday",
           "label": "Saturday — Long Walk",
-          "workoutType": "Walk",
+          "workoutType": "Long Walk",
           "exercises": [
             {
               "id": "walk_sat",
@@ -191,8 +191,8 @@
         },
         "sunday": {
           "id": "sunday",
-          "label": "Sunday — Rest",
-          "workoutType": "Rest",
+          "label": "Sunday",
+          "workoutType": "",
           "exercises": []
         }
       }
@@ -352,14 +352,14 @@
         },
         "saturday": {
           "id": "saturday",
-          "label": "Saturday — Rest",
-          "workoutType": "Rest",
+          "label": "Saturday",
+          "workoutType": "",
           "exercises": []
         },
         "sunday": {
           "id": "sunday",
-          "label": "Sunday — Rest",
-          "workoutType": "Rest",
+          "label": "Sunday",
+          "workoutType": "",
           "exercises": []
         }
       }
@@ -550,14 +550,14 @@
         },
         "saturday": {
           "id": "saturday",
-          "label": "Saturday — Rest",
-          "workoutType": "Rest",
+          "label": "Saturday",
+          "workoutType": "",
           "exercises": []
         },
         "sunday": {
           "id": "sunday",
-          "label": "Sunday — Rest",
-          "workoutType": "Rest",
+          "label": "Sunday",
+          "workoutType": "",
           "exercises": []
         }
       }
@@ -652,7 +652,7 @@
             },
             {
               "id": "farmers_walk",
-              "name": "Farmer’s Walk",
+              "name": "Farmer's Walk",
               "type": "carry",
               "sets": 4,
               "reps": 45,
@@ -904,7 +904,7 @@
         },
         "saturday": {
           "id": "saturday",
-          "label": "Saturday — Daily 7",
+          "label": "Saturday — Daily 7 and walk",
           "workoutType": "Daily 7 and walk",
           "exercises": [
             {
@@ -931,7 +931,7 @@
         },
         "sunday": {
           "id": "sunday",
-          "label": "Sunday — Daily 7",
+          "label": "Sunday — Daily 7 and walk",
           "workoutType": "Daily 7 and walk",
           "exercises": [
             {
@@ -966,7 +966,7 @@
         "monday": {
           "id": "monday",
           "label": "Monday — Morning Run",
-          "workoutType": "Run",
+          "workoutType": "Morning Run",
           "exercises": [
             {
               "id": "run_mon",
@@ -983,7 +983,7 @@
         "tuesday": {
           "id": "tuesday",
           "label": "Tuesday — Morning Run",
-          "workoutType": "Run",
+          "workoutType": "Morning Run",
           "exercises": [
             {
               "id": "run_tue",
@@ -1000,7 +1000,7 @@
         "wednesday": {
           "id": "wednesday",
           "label": "Wednesday — Morning Run",
-          "workoutType": "Run",
+          "workoutType": "Morning Run",
           "exercises": [
             {
               "id": "run_wed",
@@ -1017,7 +1017,7 @@
         "thursday": {
           "id": "thursday",
           "label": "Thursday — Morning Run",
-          "workoutType": "Run",
+          "workoutType": "Morning Run",
           "exercises": [
             {
               "id": "run_thu",
@@ -1034,7 +1034,7 @@
         "friday": {
           "id": "friday",
           "label": "Friday — Morning Run",
-          "workoutType": "Run",
+          "workoutType": "Morning Run",
           "exercises": [
             {
               "id": "run_fri",
@@ -1051,7 +1051,7 @@
         "saturday": {
           "id": "saturday",
           "label": "Saturday — Long Run",
-          "workoutType": "Run",
+          "workoutType": "Long Run",
           "exercises": [
             {
               "id": "run_sat",
@@ -1068,7 +1068,7 @@
         "sunday": {
           "id": "sunday",
           "label": "Sunday — Morning Run",
-          "workoutType": "Run",
+          "workoutType": "Morning Run",
           "exercises": [
             {
               "id": "run_sun",
@@ -1388,7 +1388,7 @@
         "monday": {
           "id": "monday",
           "label": "Monday — Gym",
-          "workoutType": "Strength",
+          "workoutType": "Gym",
           "exercises": [
             {
               "id": "g30_leg_press",
@@ -1435,7 +1435,7 @@
         "tuesday": {
           "id": "tuesday",
           "label": "Tuesday — Easy Jog",
-          "workoutType": "Jog",
+          "workoutType": "Easy Jog",
           "exercises": [
             {
               "id": "g30_jog_tue",
@@ -1452,7 +1452,7 @@
         "wednesday": {
           "id": "wednesday",
           "label": "Wednesday — Gym",
-          "workoutType": "Strength",
+          "workoutType": "Gym",
           "exercises": [
             {
               "id": "g30_goblet_squat",
@@ -1501,7 +1501,7 @@
         "thursday": {
           "id": "thursday",
           "label": "Thursday — Easy Jog",
-          "workoutType": "Jog",
+          "workoutType": "Easy Jog",
           "exercises": [
             {
               "id": "g30_jog_thu",
@@ -1518,7 +1518,7 @@
         "friday": {
           "id": "friday",
           "label": "Friday — Gym",
-          "workoutType": "Strength",
+          "workoutType": "Gym",
           "exercises": [
             {
               "id": "g30_db_rdl",
@@ -1585,8 +1585,8 @@
         },
         "sunday": {
           "id": "sunday",
-          "label": "Sunday — Rest",
-          "workoutType": "Rest",
+          "label": "Sunday",
+          "workoutType": "",
           "exercises": []
         }
       }
@@ -1599,7 +1599,7 @@
         "monday": {
           "id": "monday",
           "label": "Monday — Easy Run",
-          "workoutType": "Run",
+          "workoutType": "Easy Run",
           "exercises": [
             {
               "id": "rl_run_mon",
@@ -1616,7 +1616,7 @@
         "tuesday": {
           "id": "tuesday",
           "label": "Tuesday — Dumbbell Strength",
-          "workoutType": "Strength",
+          "workoutType": "Dumbbell Strength",
           "exercises": [
             {
               "id": "rl_goblet_squat",
@@ -1664,14 +1664,14 @@
         },
         "wednesday": {
           "id": "wednesday",
-          "label": "Wednesday — Rest",
-          "workoutType": "Rest",
+          "label": "Wednesday",
+          "workoutType": "",
           "exercises": []
         },
         "thursday": {
           "id": "thursday",
           "label": "Thursday — Easy Run",
-          "workoutType": "Run",
+          "workoutType": "Easy Run",
           "exercises": [
             {
               "id": "rl_run_thu",
@@ -1688,7 +1688,7 @@
         "friday": {
           "id": "friday",
           "label": "Friday — Dumbbell Strength",
-          "workoutType": "Strength",
+          "workoutType": "Dumbbell Strength",
           "exercises": [
             {
               "id": "rl_db_step_up",
@@ -1739,7 +1739,7 @@
         "saturday": {
           "id": "saturday",
           "label": "Saturday — Long Easy Run",
-          "workoutType": "Run",
+          "workoutType": "Long Easy Run",
           "exercises": [
             {
               "id": "rl_run_sat",
@@ -1755,8 +1755,8 @@
         },
         "sunday": {
           "id": "sunday",
-          "label": "Sunday — Rest",
-          "workoutType": "Rest",
+          "label": "Sunday",
+          "workoutType": "",
           "exercises": []
         }
       }
@@ -1818,7 +1818,7 @@
         "tuesday": {
           "id": "tuesday",
           "label": "Tuesday — Walk and Stretch",
-          "workoutType": "Walk",
+          "workoutType": "Walk and Stretch",
           "exercises": [
             {
               "id": "hd_walk_tue",
@@ -1956,7 +1956,7 @@
         "friday": {
           "id": "friday",
           "label": "Friday — Walk and Stretch",
-          "workoutType": "Walk",
+          "workoutType": "Walk and Stretch",
           "exercises": [
             {
               "id": "hd_walk_fri",
@@ -1993,7 +1993,7 @@
         "saturday": {
           "id": "saturday",
           "label": "Saturday — Long Walk",
-          "workoutType": "Walk",
+          "workoutType": "Long Walk",
           "exercises": [
             {
               "id": "hd_walk_sat",
@@ -2009,8 +2009,8 @@
         },
         "sunday": {
           "id": "sunday",
-          "label": "Sunday — Rest",
-          "workoutType": "Rest",
+          "label": "Sunday",
+          "workoutType": "",
           "exercises": []
         }
       }
@@ -2023,7 +2023,7 @@
         "monday": {
           "id": "monday",
           "label": "Monday — Bike and Machines",
-          "workoutType": "Cardio + Strength",
+          "workoutType": "Bike and Machines",
           "exercises": [
             {
               "id": "lic_bike",
@@ -2087,14 +2087,14 @@
         },
         "wednesday": {
           "id": "wednesday",
-          "label": "Wednesday — Rest",
-          "workoutType": "Rest",
+          "label": "Wednesday",
+          "workoutType": "",
           "exercises": []
         },
         "thursday": {
           "id": "thursday",
           "label": "Thursday — Row and Machines",
-          "workoutType": "Cardio + Strength",
+          "workoutType": "Row and Machines",
           "exercises": [
             {
               "id": "lic_row",
@@ -2131,7 +2131,7 @@
         "friday": {
           "id": "friday",
           "label": "Friday — Elliptical",
-          "workoutType": "Cardio",
+          "workoutType": "Elliptical",
           "exercises": [
             {
               "id": "lic_elliptical_fri",
@@ -2164,8 +2164,8 @@
         },
         "sunday": {
           "id": "sunday",
-          "label": "Sunday — Rest",
-          "workoutType": "Rest",
+          "label": "Sunday",
+          "workoutType": "",
           "exercises": []
         }
       }
@@ -2178,7 +2178,7 @@
         "monday": {
           "id": "monday",
           "label": "Monday — Walk and Balance",
-          "workoutType": "Walk + Balance",
+          "workoutType": "Walk and Balance",
           "exercises": [
             {
               "id": "wb_walk_mon",
@@ -2226,7 +2226,7 @@
         "tuesday": {
           "id": "tuesday",
           "label": "Tuesday — Walk and Balance",
-          "workoutType": "Walk + Balance",
+          "workoutType": "Walk and Balance",
           "exercises": [
             {
               "id": "wb_walk_tue",
@@ -2274,7 +2274,7 @@
         "wednesday": {
           "id": "wednesday",
           "label": "Wednesday — Walk and Balance",
-          "workoutType": "Walk + Balance",
+          "workoutType": "Walk and Balance",
           "exercises": [
             {
               "id": "wb_walk_wed",
@@ -2322,7 +2322,7 @@
         "thursday": {
           "id": "thursday",
           "label": "Thursday — Walk and Balance",
-          "workoutType": "Walk + Balance",
+          "workoutType": "Walk and Balance",
           "exercises": [
             {
               "id": "wb_walk_thu",
@@ -2370,7 +2370,7 @@
         "friday": {
           "id": "friday",
           "label": "Friday — Walk and Balance",
-          "workoutType": "Walk + Balance",
+          "workoutType": "Walk and Balance",
           "exercises": [
             {
               "id": "wb_walk_fri",
@@ -2434,8 +2434,8 @@
         },
         "sunday": {
           "id": "sunday",
-          "label": "Sunday — Rest",
-          "workoutType": "Rest",
+          "label": "Sunday",
+          "workoutType": "",
           "exercises": []
         }
       }
@@ -2447,8 +2447,8 @@
       "plan": {
         "monday": {
           "id": "monday",
-          "label": "Monday — Rest",
-          "workoutType": "Rest",
+          "label": "Monday",
+          "workoutType": "",
           "exercises": []
         },
         "tuesday": {
@@ -2470,8 +2470,8 @@
         },
         "wednesday": {
           "id": "wednesday",
-          "label": "Wednesday — Rest",
-          "workoutType": "Rest",
+          "label": "Wednesday",
+          "workoutType": "",
           "exercises": []
         },
         "thursday": {
@@ -2493,14 +2493,14 @@
         },
         "friday": {
           "id": "friday",
-          "label": "Friday — Rest",
-          "workoutType": "Rest",
+          "label": "Friday",
+          "workoutType": "",
           "exercises": []
         },
         "saturday": {
           "id": "saturday",
           "label": "Saturday — Longer Walk/Run",
-          "workoutType": "Walk/Run",
+          "workoutType": "Longer Walk/Run",
           "exercises": [
             {
               "id": "wr_intervals_sat",
@@ -2517,7 +2517,7 @@
         "sunday": {
           "id": "sunday",
           "label": "Sunday — Longer Walk/Run",
-          "workoutType": "Walk/Run",
+          "workoutType": "Longer Walk/Run",
           "exercises": [
             {
               "id": "wr_intervals_sun",
@@ -2540,14 +2540,14 @@
       "plan": {
         "monday": {
           "id": "monday",
-          "label": "Monday — Rest",
-          "workoutType": "Rest",
+          "label": "Monday",
+          "workoutType": "",
           "exercises": []
         },
         "tuesday": {
           "id": "tuesday",
           "label": "Tuesday — Quick Strength",
-          "workoutType": "Strength",
+          "workoutType": "Quick Strength",
           "exercises": [
             {
               "id": "ws_goblet_tue",
@@ -2584,14 +2584,14 @@
         },
         "wednesday": {
           "id": "wednesday",
-          "label": "Wednesday — Rest",
-          "workoutType": "Rest",
+          "label": "Wednesday",
+          "workoutType": "",
           "exercises": []
         },
         "thursday": {
           "id": "thursday",
           "label": "Thursday — Quick Strength",
-          "workoutType": "Strength",
+          "workoutType": "Quick Strength",
           "exercises": [
             {
               "id": "ws_goblet_thu",
@@ -2628,14 +2628,14 @@
         },
         "friday": {
           "id": "friday",
-          "label": "Friday — Rest",
-          "workoutType": "Rest",
+          "label": "Friday",
+          "workoutType": "",
           "exercises": []
         },
         "saturday": {
           "id": "saturday",
           "label": "Saturday — Lower Body + Push",
-          "workoutType": "Strength",
+          "workoutType": "Lower Body + Push",
           "exercises": [
             {
               "id": "ws_goblet_sat",
@@ -2697,7 +2697,7 @@
         "sunday": {
           "id": "sunday",
           "label": "Sunday — Upper Body + Walk",
-          "workoutType": "Strength + Walk",
+          "workoutType": "Upper Body + Walk",
           "exercises": [
             {
               "id": "ws_row_sun",
@@ -2811,7 +2811,7 @@
         "tuesday": {
           "id": "tuesday",
           "label": "Tuesday — Bike and Jump",
-          "workoutType": "Bike + Bodyweight",
+          "workoutType": "Bike and Jump",
           "exercises": [
             {
               "id": "sp_bike_tue",
@@ -2905,7 +2905,7 @@
         "thursday": {
           "id": "thursday",
           "label": "Thursday — Bike and Jump",
-          "workoutType": "Bike + Bodyweight",
+          "workoutType": "Bike and Jump",
           "exercises": [
             {
               "id": "sp_bike_thu",
@@ -3056,14 +3056,14 @@
         },
         "tuesday": {
           "id": "tuesday",
-          "label": "Tuesday — Rest",
-          "workoutType": "Rest",
+          "label": "Tuesday",
+          "workoutType": "",
           "exercises": []
         },
         "wednesday": {
           "id": "wednesday",
           "label": "Wednesday — Bike Ride",
-          "workoutType": "Bike",
+          "workoutType": "Bike Ride",
           "exercises": [
             {
               "id": "dbh_bike_wed",
@@ -3079,14 +3079,14 @@
         },
         "thursday": {
           "id": "thursday",
-          "label": "Thursday — Rest",
-          "workoutType": "Rest",
+          "label": "Thursday",
+          "workoutType": "",
           "exercises": []
         },
         "friday": {
           "id": "friday",
           "label": "Friday — Dance and Box",
-          "workoutType": "Dance",
+          "workoutType": "Dance and Box",
           "exercises": [
             {
               "id": "dbh_dance_fri",
@@ -3130,7 +3130,7 @@
         "sunday": {
           "id": "sunday",
           "label": "Sunday — Bike Ride",
-          "workoutType": "Bike",
+          "workoutType": "Bike Ride",
           "exercises": [
             {
               "id": "dbh_bike_sun",
